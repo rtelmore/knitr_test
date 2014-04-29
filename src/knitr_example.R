@@ -4,5 +4,5 @@
 
 library(knitr)
 library(knitrBootstrap)
-knit("knitr_example.Rmd")
+knit2html("knitr_example.Rmd")
 
