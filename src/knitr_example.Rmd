@@ -12,7 +12,7 @@ set.seed(53079239)
 x <- cumsum(rnorm(100))
 plot(x)
 ```
-The mean of this Brownian Motion is `r mean(x)`.
+The mean of this Brownian Motion is $\mu = $ `r mean(x)`.
 
 ### R and package versions used
 
