@@ -3,6 +3,6 @@
 ## 29 April 2014
 
 library(knitr)
-library(knitrBootstrap)
+library(markdown)
 knit2html("knitr_example.Rmd", output = "../index.html")
 
