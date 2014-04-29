@@ -1,0 +1,22 @@
+## An example Knitr/R Markdown document
+
+[Ryan Elmore](http://rtelmore.github.io/)
+
+```{r knitr_options, include=FALSE}
+set.seed(53079239)
+```
+
+### Contruct a Brownian Motion 
+
+```{r brownian-motion, fig.height = 4, fig.cap = "Simple Brownian Motion"}
+x <- cumsum(rnorm(100))
+plot(x)
+```
+The mean of this Brownian Motion is `r mean(x)`.
+
+### R and package versions used
+
+```{r sessionInfo, include=TRUE, echo=TRUE, results='markup'}
+sessionInfo()
+```
+
