@@ -3,6 +3,10 @@
 ## 29 April 2014
 
 library(knitr)
-library(markdown)
-knit2html("knitr_example.Rmd", output = "../index.html")
+library(rmarkdown)
+library(ggplot2)
+library(XLConnect)
+library(knitrBootstrap)
 
+render("knitr_example.Rmd", output_file = "index-tmp.html")
+bootstrap_HTML("index-tmp.html", output = "../index.html")
