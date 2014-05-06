@@ -1,15 +1,3 @@
----
-title: "Rooftop PV"
-output:
-  html_document:
-    toc: true
-  knitrBootstrap::bootstrap_document:
-    title: "Rooftop PV"
-    theme: United
-    highlight: sunburst
-    theme.chooser: TRUE
-    highlight.chooser: TRUE
----
 
 ## An example Knitr/R Markdown document
 
