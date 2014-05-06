@@ -2,8 +2,8 @@ title: "Knitr Test"
 output:
   knitrBootstrap::bootstrap_document:
     title: "Rooftop PV"
-    theme: cerulean 
+    theme: spacelab 
     highlight: zenburn 
-    theme.chooser: TRUE
-    highlight.chooser: TRUE
+    theme.chooser: FALSE
+    highlight.chooser: FALSE
 
