@@ -1,4 +1,3 @@
-
 ## An example Knitr/R Markdown document
 
 [Ryan Elmore](http://rtelmore.github.io/)
@@ -13,6 +12,7 @@ set.seed(53079239)
 x <- cumsum(rnorm(100))
 plot(x)
 ```
+
 The mean of this Brownian Motion is $\mu = $ `r mean(x)`.
 
 ### R and package versions used

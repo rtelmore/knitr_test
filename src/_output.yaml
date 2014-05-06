@@ -1,13 +1,9 @@
----
-title: "Rooftop PV"
+title: "Knitr Test"
 output:
-  html_document:
-    toc: true
   knitrBootstrap::bootstrap_document:
     title: "Rooftop PV"
-    theme: United
-    highlight: sunburst
+    theme: cerulean 
+    highlight: zenburn 
     theme.chooser: TRUE
     highlight.chooser: TRUE
----
 
